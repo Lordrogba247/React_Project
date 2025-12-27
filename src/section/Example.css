@@ -1,0 +1,200 @@
+.example {
+  background: radial-gradient(circle, #3c3c3c, #4e4e4e);
+  text-align: center;
+  align-content: center;
+  justify-items: center;
+  margin-bottom: 70px;
+}
+.vs {
+  visibility: hidden;
+}
+.example-text h1 {
+  margin: 30px;
+  font-family: "Roboto Slab", "Roboto", sans-serif;
+  color: white;
+}
+.example-text h3 {
+  color: #8d8d8d;
+  font-weight: 300;
+  max-width: 800px;
+}
+.example-image h2 {
+  color: white;
+  font-family: "Roboto Slab", "Roboto", sans-serif;
+}
+.example-image {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.example-image img {
+  width: 25vw;
+  padding: 10px;
+}
+.example-image img:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+/* Large tablets and small desktops (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .example {
+    padding: 30px 15px;
+  }
+
+  .example-text h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+
+  .example-text h3 {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+
+  .example-image {
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .example-image h2 {
+    font-size: 1.3rem;
+  }
+
+  .example-image img {
+    padding: 8px;
+  }
+}
+
+/* Tablets (600px - 768px) */
+@media screen and (max-width: 768px) {
+  .example {
+    padding: 25px 10px;
+  }
+
+  .example-text {
+    margin-bottom: 30px;
+  }
+
+  .example-text h1 {
+    font-size: 1.75rem;
+    margin: 15px 0;
+  }
+
+  .example-text h3 {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .example-image {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .example-image > div {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .example-image h2 {
+    font-size: 1.4rem;
+    margin: 15px 0 5px 0;
+  }
+
+  .example-image img {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .example-image {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Mobile devices (up to 600px) */
+@media screen and (max-width: 600px) {
+  .example {
+    padding: 20px 10px;
+  }
+
+  .example-text {
+    margin-bottom: 25px;
+    padding: 0 10px;
+  }
+
+  .example-text h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .example-text h3 {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .example-image {
+    gap: 15px;
+  }
+
+  .example-image > div {
+    gap: 15px;
+  }
+
+  .example-image h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px 0;
+  }
+
+  .example-image img {
+    padding: 5px;
+    max-width: 100%;
+  }
+  .example-image {
+    flex-direction: column;
+  }
+  .example-image img:hover {
+    transform: translateY(-5px);
+  }
+  .example-image1 img {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* overflow: hidden; */
+  }
+}
+
+/* Extra small devices (up to 400px) */
+@media screen and (max-width: 400px) {
+  .example {
+    padding: 15px 5px;
+  }
+
+  .example-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .example-text h3 {
+    font-size: 0.85rem;
+  }
+
+  .example-image h2 {
+    font-size: 1.1rem;
+  }
+  .example-image {
+    flex-direction: column;
+  }
+  .example-image img {
+    padding: 3px;
+  }
+  .example-image1 img {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* overflow: hidden; */
+  }
+}

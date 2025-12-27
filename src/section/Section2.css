@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.Cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  background: radial-gradient(circle, #3c3c3c, #4e4e4e);
+}
+.card-image {
+  width: 80vw;
+  height: auto;
+  margin-left: -30%;
+  margin-top: -100px;
+  margin-bottom: -14%;
+}
+.card-content {
+  color: white;
+  font-family: "Roboto", "Arial", "sans-serif";
+  max-width: 400px;
+  margin-top: 10%;
+}
+.card-content h2 {
+  font-family: "Roboto Slab", "Arial", "sans-serif";
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.card-content h3 {
+  color: #a8a8a8;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.card-content h4 {
+  font-size: smaller;
+  color: #a8a8a8;
+}
+@media (max-width: 992px) {
+  .Cards {
+    gap: 30px;
+    padding: 30px 15px;
+  }
+
+  .card-image {
+    width: 70vw;
+    margin-left: -20%;
+    margin-top: -80px;
+    margin-bottom: -10%;
+  }
+
+  .card-content {
+    max-width: 350px;
+    margin-top: 5%;
+  }
+
+  .card-content h2 {
+    font-size: 23px;
+  }
+
+  .card-content h3 {
+    font-size: 17px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .Cards {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+    margin-top: 20px;
+  }
+
+  .card-image {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .card-content {
+    max-width: 100%;
+    margin-top: 0;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .card-content h2 {
+    font-size: 22px;
+  }
+
+  .card-content h3 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .card-content h4 {
+    font-size: 13px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+  .Cards {
+    padding: 30px 15px;
+  }
+
+  .card-image {
+    max-width: 100%;
+  }
+
+  .card-content {
+    padding: 0 15px;
+  }
+
+  .card-content h2 {
+    font-size: 20px;
+  }
+
+  .card-content h3 {
+    font-size: 15px;
+  }
+
+  .card-content h4 {
+    font-size: 12px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+  .Cards {
+    padding: 20px 10px;
+  }
+
+  .card-content {
+    padding: 0 10px;
+  }
+
+  .card-content h2 {
+    font-size: 18px;
+  }
+
+  .card-content h3 {
+    font-size: 14px;
+  }
+
+  .card-content h4 {
+    font-size: 11px;
+  }
+}

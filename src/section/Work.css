@@ -1,0 +1,258 @@
+.features-section12 {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a0d2e 0%, #2d1b4e 50%, #4a2c5e 100%);
+  padding: 80px 20px;
+  overflow: hidden;
+}
+
+.stars12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("src/assets/features-5.ccf7d111.jpg");
+  opacity: 0.3;
+}
+
+.features-container12 {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.features-title121 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 80px;
+  letter-spacing: 0.5px;
+}
+
+.features-grids12 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  position: relative;
+}
+
+.feature-card12 {
+  padding: 40px 30px;
+  text-align: center;
+  position: relative;
+}
+
+.feature-card12:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -1%;
+  height: 100%;
+  width: 3px;
+  background: #645e69;
+}
+
+.feature-icon12 {
+  font-size: 64px;
+  margin-bottom: 30px;
+  color: white;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.feature-title12 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.feature-descriptions12 {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  .features-grids12 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-card12:nth-child(2n)::after {
+    display: none;
+  }
+
+  .feature-card12:nth-child(odd)::after {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-section12 {
+    padding: 60px 15px;
+  }
+
+  .features-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  .features-grids12 {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card12::after {
+    display: none !important;
+  }
+
+  .feature-icon12 {
+    font-size: 48px;
+  }
+
+  .feature-title12 {
+    font-size: 20px;
+  }
+
+  .feature-description {
+    font-size: 14px;
+  }
+}
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+  .features-section12 {
+    padding: 60px 20px;
+  }
+
+  .features-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .feature-icon12 svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .feature-title12 {
+    font-size: 1.25rem;
+  }
+
+  .feature-description {
+    font-size: 0.875rem;
+  }
+}
+
+/* Large mobile and small tablets (600px - 768px) */
+@media (max-width: 768px) {
+  .features-section12 {
+    padding: 50px 15px;
+    min-height: auto;
+  }
+
+  .features-title {
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+
+  .features-grids12 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .feature-card12 {
+    padding: 30px 20px;
+  }
+
+  .feature-card12::after {
+    display: none !important;
+  }
+
+  .feature-icon12 svg {
+    width: 55px;
+    height: 55px;
+  }
+
+  .feature-icon12 {
+    margin-bottom: 25px;
+  }
+
+  .feature-title12 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .feature-description {
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+}
+
+/* Mobile devices (up to 600px) */
+@media (max-width: 600px) {
+  .features-section12 {
+    padding: 40px 15px;
+  }
+
+  .features-title {
+    font-size: 1.5rem;
+    margin-bottom: 35px;
+  }
+
+  .feature-card12 {
+    padding: 25px 15px;
+  }
+
+  .feature-icon12 svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .feature-icon12 {
+    margin-bottom: 20px;
+  }
+
+  .feature-title12 {
+    font-size: 1.125rem;
+  }
+
+  .feature-description {
+    font-size: 0.8125rem;
+  }
+}
+
+/* Extra small devices (up to 400px) */
+@media (max-width: 400px) {
+  .features-section12 {
+    padding: 30px 10px;
+  }
+
+  .features-title {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+
+  .feature-card12 {
+    padding: 20px 10px;
+  }
+
+  .feature-icon12 svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .feature-title12 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .feature-description {
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+}
