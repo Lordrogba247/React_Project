@@ -29,7 +29,6 @@ body {
   height: 60vh;
   top: 0;
   min-height: 400px;
-  background: url("src/assets/bg10.d1d1f014.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

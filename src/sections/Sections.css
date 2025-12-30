@@ -1825,7 +1825,7 @@ body {
 }
 
 .product-image {
-  width: 100%;
+  width: 100vw;
   height: 200px;
   position: relative;
   overflow: hidden;

@@ -16,8 +16,8 @@ const BlogPage = () => {
     };
 
     return (
-        <div className="blog-page">
-            <section className="hero-section11">
+        <div className="blog-page" >
+            <section style={{ background: `url("src/assets/bg10.d1d1f014.jpg") center/cover no-repeat` }} className="hero-section11">
                 <div className="hero-overlay">
                     <h1 className="hero-title">
                         A Place for Entrepreneurs to Share and Discover New Stories

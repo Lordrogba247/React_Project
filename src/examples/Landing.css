@@ -22,7 +22,6 @@ body {
   position: relative;
   height: 70vh;
   min-height: 500px;
-  background: url("src/assets/bg8.ac3c23fa.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: flex-start;

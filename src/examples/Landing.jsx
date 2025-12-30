@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <div className="landing-page">
       {/* Hero Section */}
-      <section className="hero-section111">
+      <section className="hero-section111" style={{ backgroundImage: "url('src/assets/bg8.ac3c23fa.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <div className="hero-content111">
           <h1 className="hero-title">Your Story Starts With Us.</h1>
           <p className="hero-description">
