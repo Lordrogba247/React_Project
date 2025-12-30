@@ -43,14 +43,14 @@ const Content = () => {
                 </h3>
             </div>
             <div className='content-image'>
-                <img src="src/assets/presentation-ipad.0bd584d0.jpg" alt="" className='p1' />
+                <img src="./src/assets/presentation-ipad.0bd584d0.jpg" alt="" className='p1' />
                 <img
-                    src="src/assets/shopping_cart.jpg"
+                    src="./src/assets/shopping_cart.jpg"
                     alt=""
                     className={`p2 ${isVisible ? 'animate' : ''}`}
                 />
                 <img
-                    src="src/assets/ipad-comments.3ce86419.jpg"
+                    src="./src/assets/ipad-comments.3ce86419.jpg"
                     alt=""
                     className={`p3 ${isVisible ? 'animate' : ''}`}
                 />

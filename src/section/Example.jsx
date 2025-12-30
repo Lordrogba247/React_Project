@@ -18,31 +18,31 @@ const Example = () => {
             <div className='example-image'>
                 <div className='example-image1'>
                     <h2>About Us</h2>
-                    <img src="src/assets/a1.jpg" alt="" />
+                    <img src="./src/assets/a1.jpg" alt="" />
                     <h2>Landing Page</h2>
-                    <img src="src/assets/a2.jpg" alt="" />
+                    <img src="./src/assets/a2.jpg" alt="" />
                     <h2>Contact Us</h2>
-                    <img src="src/assets/a3.jpg" alt="" />
+                    <img src="./src/assets/a3.jpg" alt="" />
                 </div>
 
                 <div className='example-image1'>
                     <h2>Blog Post</h2>
-                    <img src="src/assets/b1.jpg" alt="" />
+                    <img src="./src/assets/b1.jpg" alt="" />
                     <h2>Product Page</h2>
-                    <img src="src/assets/b2.jpg" alt="" />
+                    <img src="./src/assets/b2.jpg" alt="" />
                     <h2>Login Page</h2>
-                    <img src="src/assets/b3.jpg" alt="" />
+                    <img src="./src/assets/b3.jpg" alt="" />
                 </div>
 
                 <div className='example-image1'>
                     <h2>Pricing Page</h2>
-                    <img src="src/assets/c1.jpg" alt="" />
+                    <img src="./src/assets/c1.jpg" alt="" />
                     <h2>Signup Page</h2>
-                    <img src="src/assets/c2.jpg" alt="" />
+                    <img src="./src/assets/c2.jpg" alt="" />
                     <h2>Profile Page</h2>
-                    <img src="src/assets/c3.jpg" alt="" />
+                    <img src="./src/assets/c3.jpg" alt="" />
                     <h2>Blog Post</h2>
-                    <img src="src/assets/c4.jpg" alt="" />
+                    <img src="./src/assets/c4.jpg" alt="" />
                 </div>
             </div>
         </div>

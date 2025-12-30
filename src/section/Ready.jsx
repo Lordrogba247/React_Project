@@ -18,39 +18,39 @@ const Ready = () => {
                     <button className='view'>VIEW ALL SECTIONS</button>
                 </div>
                 <div className='images'>
-                    <img src="src/assets/1.jpg" alt="" />
-                    <img src="src/assets/2.jpg" alt="" />
-                    <img src="src/assets/3.jpg" alt="" />
-                    <img src="src/assets/4.jpg" alt="" />
-                    <img src="src/assets/5.webp" alt="" />
-                    <img src="src/assets/6.jpg" alt="" />
-                    <img src="src/assets/7.webp" alt="" />
-                    <img src="src/assets/8.jpg" alt="" />
-                    <img src="src/assets/9.webp" alt="" />
-                    <img src="src/assets/10.jpg" alt="" />
-                    <img src="src/assets/11.jpg" alt="" />
-                    <img src="src/assets/12.jpg" alt="" />
-                    <img src="src/assets/13.jpg" alt="" />
-                    <img src="src/assets/14.jpg" alt="" />
-                    <img src="src/assets/15.jpg" alt="" />
-                    <img src="src/assets/16.jpg" alt="" />
-                    <img src="src/assets/17.jpg" alt="" />
-                    <img src="src/assets/18.jpg" alt="" />
-                    <img src="src/assets/19.jpg" alt="" />
-                    <img src="src/assets/20.jpg" alt="" />
-                    <img src="src/assets/21.jpg" alt="" />
-                    <img src="src/assets/22.jpg" alt="" />
-                    <img src="src/assets/23.jpg" alt="" />
-                    <img src="src/assets/24.webp" alt="" />
-                    <img src="src/assets/25.jpg" alt="" />
-                    <img src="src/assets/26.jpg" alt="" />
-                    <img src="src/assets/27.jpg" alt="" />
-                    <img src="src/assets/28.jpg" alt="" />
-                    <img src="src/assets/29.jpg" alt="" />
-                    <img src="src/assets/30.jpg" alt="" />
-                    <img src="src/assets/31.jpg" alt="" />
-                    <img src="src/assets/32.jpg" alt="" />
-                    
+                    <img src="./src/assets/1.jpg" alt="" />
+                    <img src="./src/assets/2.jpg" alt="" />
+                    <img src="./src/assets/3.jpg" alt="" />
+                    <img src="./src/assets/4.jpg" alt="" />
+                    <img src="./src/assets/5.webp" alt="" />
+                    <img src="./src/assets/6.jpg" alt="" />
+                    <img src="./src/assets/7.webp" alt="" />
+                    <img src="./src/assets/8.jpg" alt="" />
+                    <img src="./src/assets/9.webp" alt="" />
+                    <img src="./src/assets/10.jpg" alt="" />
+                    <img src="./src/assets/11.jpg" alt="" />
+                    <img src="./src/assets/12.jpg" alt="" />
+                    <img src="./src/assets/13.jpg" alt="" />
+                    <img src="./src/assets/14.jpg" alt="" />
+                    <img src="./src/assets/15.jpg" alt="" />
+                    <img src="./src/assets/16.jpg" alt="" />
+                    <img src="./src/assets/17.jpg" alt="" />
+                    <img src="./src/assets/18.jpg" alt="" />
+                    <img src="./src/assets/19.jpg" alt="" />
+                    <img src="./src/assets/20.jpg" alt="" />
+                    <img src="./src/assets/21.jpg" alt="" />
+                    <img src="./src/assets/22.jpg" alt="" />
+                    <img src="./src/assets/23.jpg" alt="" />
+                    <img src="./src/assets/24.webp" alt="" />
+                    <img src="./src/assets/25.jpg" alt="" />
+                    <img src="./src/assets/26.jpg" alt="" />
+                    <img src="./src/assets/27.jpg" alt="" />
+                    <img src="./src/assets/28.jpg" alt="" />
+                    <img src="./src/assets/29.jpg" alt="" />
+                    <img src="./src/assets/30.jpg" alt="" />
+                    <img src="./src/assets/31.jpg" alt="" />
+                    <img src="./src/assets/32.jpg" alt="" />
+
 
                 </div>
             </div>

@@ -59,7 +59,7 @@ const BlogPage = () => {
                     <div className="articles-grid">
                         <article className="article-card">
                             <div className="article-image">
-                                <img src="src/assets/office2.2cce81e2.jpg" alt="Productivity Apps" />
+                                <img src="./src/assets/office2.2cce81e2.jpg" alt="Productivity Apps" />
                                 <div className="article-overlay">
                                     <span className="article-category">WORLDS</span>
                                     <h2 className="article-title" style={{ fontFamily: "Roboto Slab, sans-serif" }}>The Best Productivity Apps on Market</h2>
@@ -77,7 +77,7 @@ const BlogPage = () => {
 
                         <article className="article-card">
                             <div className="article-image">
-                                <img src="src/assets/blog8.9faabe4e.jpg" alt="Wallstreet" />
+                                <img src="./src/assets/blog8.9faabe4e.jpg" alt="Wallstreet" />
                                 <div className="article-overlay">
                                     <span className="article-category">BUSINESS</span>
                                     <h2 className="article-title" style={{ fontFamily: "Roboto Slab, sans-serif" }}>Working on Wallstreet is Not So Easy</h2>
@@ -97,7 +97,7 @@ const BlogPage = () => {
                 <section className="case-study-section">
                     <div className="case-study-card">
                         <div className="article-image">
-                            <img src="src/assets/card-project6.8ecd9660.jpg" alt="Wallstreet" />
+                            <img src="./src/assets/card-project6.8ecd9660.jpg" alt="Wallstreet" />
                             <div className="article-overlay">
                                 <span className="case-study-category">MARKETING</span>
                                 <h2 className="case-study-title" style={{ fontFamily: "Roboto Slab, sans-serif" }}>0 to 100.000 Customers in 6 months</h2>
@@ -119,7 +119,7 @@ const BlogPage = () => {
                     <div className="related-grid">
                         <div className="related-card">
                             <div className="related-image">
-                                <img src="src/assets/bg5.784b6fcb.jpg" alt="Autodesk" />
+                                <img src="./src/assets/bg5.784b6fcb.jpg" alt="Autodesk" />
                             </div>
                             <div className="related-content">
                                 <span className="related-category cyan">ENTERPRISE</span>
@@ -132,7 +132,7 @@ const BlogPage = () => {
 
                         <div className="related-card">
                             <div className="related-image">
-                                <img src="src/assets/blog5.38efd737.jpg" alt="Lyft" />
+                                <img src="./src/assets/blog5.38efd737.jpg" alt="Lyft" />
                             </div>
                             <div className="related-content">
                                 <span className="related-category green">STARTUPS</span>
@@ -145,7 +145,7 @@ const BlogPage = () => {
 
                         <div className="related-card">
                             <div className="related-image">
-                                <img src="src/assets/blog6.b455045f.jpg" alt="French Fashion" />
+                                <img src="./src/assets/blog6.b455045f.jpg" alt="French Fashion" />
                             </div>
                             <div className="related-content">
                                 <span className="related-category red">ENTERPRISE</span>
@@ -162,7 +162,7 @@ const BlogPage = () => {
                     <div className="authors-container">
                         <div className="author-card">
                             <div className="author-image">
-                                <img src="src/assets/card-profile1-square.78a01818.jpg" alt="Alec Thompson" />
+                                <img src="./src/assets/card-profile1-square.78a01818.jpg" alt="Alec Thompson" />
                             </div>
                             <div className="author-info">
                                 <h3 className="author-name">Alec Thompson</h3>
@@ -186,7 +186,7 @@ const BlogPage = () => {
 
                         <div className="author-card">
                             <div className="author-image">
-                                <img src="src/assets/card-profile4-square.368a64e8.jpg" alt="Kendall Andrew" />
+                                <img src="./src/assets/card-profile4-square.368a64e8.jpg" alt="Kendall Andrew" />
                             </div>
                             <div className="author-info">
                                 <h3 className="author-name">Kendall Andrew</h3>

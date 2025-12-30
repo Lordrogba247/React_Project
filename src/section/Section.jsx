@@ -72,13 +72,13 @@ const Section = () => {
           </div>
 
           <div className='animation'>
-            <img src='src/assets/laptop-basics.90d9570c.png' alt="Laptop" className='laptop' />
-            <img src="src/assets/facebook.jpeg" alt="" className='i1' />
-            <img src="src/assets/IMG-20251206-WA0045.jpg" alt="" className='i2' />
-            <img src="src/assets/IMG-20251206-WA0048.jpg" alt="" className='i3' />
-            <img src="src/assets/ipad-table.86938250.jpg" alt="" className='i4' />
-            <img src="src/assets/IMG-20251206-WA0044.jpg" alt="" className='i5' />
-            <img src="src/assets/social-row.b61dc2df.jpg" alt="" className='i6' />
+            <img src='./src/assets/laptop-basics.90d9570c.png' alt="Laptop" className='laptop' />
+            <img src="./src/assets/facebook.jpeg" alt="" className='i1' />
+            <img src="./src/assets/IMG-20251206-WA0045.jpg" alt="" className='i2' />
+            <img src="./src/assets/IMG-20251206-WA0048.jpg" alt="" className='i3' />
+            <img src="./src/assets/ipad-table.86938250.jpg" alt="" className='i4' />
+            <img src="./src/assets/IMG-20251206-WA0044.jpg" alt="" className='i5' />
+            <img src="./src/assets/social-row.b61dc2df.jpg" alt="" className='i6' />
           </div>
         </div>
 

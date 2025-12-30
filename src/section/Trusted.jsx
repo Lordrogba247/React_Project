@@ -16,7 +16,7 @@ const Trusted = () => {
                 <div className="testimonials-grid121">
                     <div className="testimonial-card121">
                         <img
-                            src="src/assets/t1.jpeg"
+                            src="./src/assets/t1.jpeg"
                             alt="Khaldi Yass"
                             className="testimonial-image121"
                         />
@@ -30,7 +30,7 @@ const Trusted = () => {
 
                     <div className="testimonial-card121">
                         <img
-                            src="src/assets/t2.jpeg"
+                            src="./src/assets/t2.jpeg"
                             alt="Josh Murray"
                             className="testimonial-image121"
                         />
@@ -44,7 +44,7 @@ const Trusted = () => {
 
                     <div className="testimonial-card121">
                         <img
-                            src="src/assets/t3.jpeg"
+                            src="./src/assets/t3.jpeg"
                             alt="Michael Onubogu"
                             className="testimonial-image121"
                         />
@@ -59,16 +59,16 @@ const Trusted = () => {
 
                 <div className="companies-section">
                     <div className="company-logo">
-                        <img src="src/assets/t4.jpg" alt="Vodafone" />
+                        <img src="./src/assets/t4.jpg" alt="Vodafone" />
                     </div>
                     <div className="company-logo">
-                        <img src="src/assets/t5.jpg" alt="Microsoft" />
+                        <img src="./src/assets/t5.jpg" alt="Microsoft" />
                     </div>
                     <div className="company-logo">
-                        <img src="src/assets/t6.jpg" alt="Harvard" />
+                        <img src="./src/assets/t6.jpg" alt="Harvard" />
                     </div>
                     <div className="company-logo">
-                        <img src="src/assets/t7.jpg" alt="Stanford" />
+                        <img src="./src/assets/t7.jpg" alt="Stanford" />
                     </div>
                 </div>
             </div>

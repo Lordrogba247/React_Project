@@ -85,7 +85,7 @@ const Landing = () => {
             {/* Team Member 1 */}
             <div className="team-card111">
               <div className="team-image111">
-                <img src="src/assets/card-profile1-square.78a01818.jpg" alt="Alec Thompson" />
+                <img src="./src/assets/card-profile1-square.78a01818.jpg" alt="Alec Thompson" />
               </div>
               <div className="team-info">
                 <h3 className="team-name">Alec Thompson</h3>
@@ -116,7 +116,7 @@ const Landing = () => {
             {/* Team Member 2 */}
             <div className="team-card111">
               <div className="team-image111">
-                <img src="src/assets/card-profile6-square.9f286150.jpg" alt="Kendall Andrew" />
+                <img src="./src/assets/card-profile6-square.9f286150.jpg" alt="Kendall Andrew" />
               </div>
               <div className="team-info">
                 <h3 className="team-name">Kendall Andrew</h3>
@@ -171,7 +171,7 @@ const Landing = () => {
             {/* Team Member 3 */}
             <div className="team-card111">
               <div className="team-image111">
-                <img src="src/assets/card-profile4-square.368a64e8.jpg" alt="Gina Andrew" />
+                <img src="./src/assets/card-profile4-square.368a64e8.jpg" alt="Gina Andrew" />
               </div>
               <div className="team-info">
                 <h3 className="team-name">Gina Andrew</h3>
@@ -207,7 +207,7 @@ const Landing = () => {
             {/* Team Member 4 */}
             <div className="team-card111">
               <div className="team-image111">
-                <img src="src/assets/card-profile2-square.2868d711.jpg" alt="George West" />
+                <img src="./src/assets/card-profile2-square.2868d711.jpg" alt="George West" />
               </div>
               <div className="team-info">
                 <h3 className="team-name">George West</h3>
