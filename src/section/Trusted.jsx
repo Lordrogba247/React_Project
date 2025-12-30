@@ -1,5 +1,12 @@
 import React from 'react';
 import './Trusted.css';
+import testimonialT1 from '../assets/t1.jpeg';
+import testimonialT2 from '../assets/t2.jpeg';
+import testimonialT3 from '../assets/t3.jpeg';
+import logoT4 from '../assets/t4.jpg';
+import logoT5 from '../assets/t5.jpg';
+import logoT6 from '../assets/t6.jpg';
+import logoT7 from '../assets/t7.jpg';
 
 const Trusted = () => {
     return (
@@ -16,7 +23,7 @@ const Trusted = () => {
                 <div className="testimonials-grid121">
                     <div className="testimonial-card121">
                         <img
-                            src="./src/assets/t1.jpeg"
+                            src={testimonialT1}
                             alt="Khaldi Yass"
                             className="testimonial-image121"
                         />
@@ -30,7 +37,7 @@ const Trusted = () => {
 
                     <div className="testimonial-card121">
                         <img
-                            src="./src/assets/t2.jpeg"
+                            src={testimonialT2}
                             alt="Josh Murray"
                             className="testimonial-image121"
                         />
@@ -44,7 +51,7 @@ const Trusted = () => {
 
                     <div className="testimonial-card121">
                         <img
-                            src="./src/assets/t3.jpeg"
+                            src={testimonialT3}
                             alt="Michael Onubogu"
                             className="testimonial-image121"
                         />
@@ -59,16 +66,16 @@ const Trusted = () => {
 
                 <div className="companies-section">
                     <div className="company-logo">
-                        <img src="./src/assets/t4.jpg" alt="Vodafone" />
+                        <img src={logoT4} alt="Vodafone" />
                     </div>
                     <div className="company-logo">
-                        <img src="./src/assets/t5.jpg" alt="Microsoft" />
+                        <img src={logoT5} alt="Microsoft" />
                     </div>
                     <div className="company-logo">
-                        <img src="./src/assets/t6.jpg" alt="Harvard" />
+                        <img src={logoT6} alt="Harvard" />
                     </div>
                     <div className="company-logo">
-                        <img src="./src/assets/t7.jpg" alt="Stanford" />
+                        <img src={logoT7} alt="Stanford" />
                     </div>
                 </div>
             </div>

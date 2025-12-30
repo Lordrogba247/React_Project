@@ -8,6 +8,13 @@ import Demo from './Demo.jsx'
 import Work from './Work.jsx'
 import Trusted from './Trusted.jsx'
 import Footer from '../footer/Footer.jsx'
+import laptopImage from '../assets/laptop-basics.90d9570c.png';
+import facebookImage from '../assets/facebook.jpeg';
+import img20251206WA0045 from '../assets/IMG-20251206-WA0045.jpg';
+import img20251206WA0048 from '../assets/IMG-20251206-WA0048.jpg';
+import ipadTableImage from '../assets/ipad-table.86938250.jpg';
+import img20251206WA0044 from '../assets/IMG-20251206-WA0044.jpg';
+import socialRowImage from '../assets/social-row.b61dc2df.jpg';
 
 const Section = () => {
   return (
@@ -72,13 +79,14 @@ const Section = () => {
           </div>
 
           <div className='animation'>
-            <img src='./src/assets/laptop-basics.90d9570c.png' alt="Laptop" className='laptop' />
-            <img src="./src/assets/facebook.jpeg" alt="" className='i1' />
-            <img src="./src/assets/IMG-20251206-WA0045.jpg" alt="" className='i2' />
-            <img src="./src/assets/IMG-20251206-WA0048.jpg" alt="" className='i3' />
-            <img src="./src/assets/ipad-table.86938250.jpg" alt="" className='i4' />
-            <img src="./src/assets/IMG-20251206-WA0044.jpg" alt="" className='i5' />
-            <img src="./src/assets/social-row.b61dc2df.jpg" alt="" className='i6' />
+            <img src={laptopImage} alt="Laptop" className='laptop' />
+            <img src={facebookImage} alt="" className='i1' />
+            <img src={img20251206WA0045} alt="" className='i2' />
+            <img src={img20251206WA0048} alt="" className='i3' />
+            <img src={ipadTableImage} alt="" className='i4' />
+            <img src={img20251206WA0044} alt="" className='i5' />
+            <img src={socialRowImage} alt="" className='i6' />
+
           </div>
         </div>
 

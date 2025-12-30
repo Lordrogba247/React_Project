@@ -1,10 +1,11 @@
 import React from 'react'
 import './Section2.css'
+import cardsTestImage from '../assets/cards-test.fa4cc479.webp';
 
 const Section2 = () => {
     return (
         <div className='Cards'>
-            <img src="./src/assets/cards-test.fa4cc479.webp" alt="" className='card-image' />
+            <img src={cardsTestImage} alt="" className='card-image' />
             <div className='card-content'>
                 <h2>Unconventional Cards</h2>
                 <h4>ONE CARD FOR EVERY PROBLEM</h4>

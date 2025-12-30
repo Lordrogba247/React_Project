@@ -1,5 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Content.css'
+import presentationIpadImage from '../assets/presentation-ipad.0bd584d0.jpg';
+import shoppingCartImage from '../assets/shopping_cart.jpg';
+import ipadCommentsImage from '../assets/ipad-comments.3ce86419.jpg';
 
 const Content = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -43,14 +46,14 @@ const Content = () => {
                 </h3>
             </div>
             <div className='content-image'>
-                <img src="./src/assets/presentation-ipad.0bd584d0.jpg" alt="" className='p1' />
+                <img src={presentationIpadImage} alt="" className='p1' />
                 <img
-                    src="./src/assets/shopping_cart.jpg"
+                    src={shoppingCartImage}
                     alt=""
                     className={`p2 ${isVisible ? 'animate' : ''}`}
                 />
                 <img
-                    src="./src/assets/ipad-comments.3ce86419.jpg"
+                    src={ipadCommentsImage}
                     alt=""
                     className={`p3 ${isVisible ? 'animate' : ''}`}
                 />
