@@ -4,11 +4,12 @@ import cardProfile1Image from '../assets/card-profile1-square.78a01818.jpg';
 import cardProfile6Image from '../assets/card-profile6-square.9f286150.jpg';
 import cardProfile4Image from '../assets/card-profile4-square.368a64e8.jpg';
 import cardProfile2Image from '../assets/card-profile2-square.2868d711.jpg';
+import bg8Image from '../assets/bg8.ac3c23fa.jpg';
 const Landing = () => {
   return (
     <div className="landing-page">
       {/* Hero Section */}
-      <section className="hero-section111" style={{ backgroundImage: "url('src/assets/bg8.ac3c23fa.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+      <section className="hero-section111" style={{ backgroundImage: `url(${bg8Image})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <div className="hero-content111">
           <h1 className="hero-title">Your Story Starts With Us.</h1>
           <p className="hero-description">

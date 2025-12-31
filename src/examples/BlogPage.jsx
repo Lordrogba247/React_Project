@@ -8,6 +8,7 @@ import blog5Image from '../assets/blog5.38efd737.jpg';
 import blog6Image from '../assets/blog6.b455045f.jpg';
 import cardProfile1Image from '../assets/card-profile1-square.78a01818.jpg';
 import cardProfile4Image from '../assets/card-profile4-square.368a64e8.jpg';
+import bg10Image from '../assets/bg10.d1d1f014.jpg';
 const BlogPage = () => {
     const [activeFilter, setActiveFilter] = useState('ALL');
 
@@ -17,7 +18,7 @@ const BlogPage = () => {
 
     return (
         <div className="blog-page" >
-            <section style={{ background: `url("src/assets/bg10.d1d1f014.jpg") center/cover no-repeat` }} className="hero-section11">
+            <section style={{ background: `url(${bg10Image}) center/cover no-repeat` }} className="hero-section11">
                 <div className="hero-overlay">
                     <h1 className="hero-title">
                         A Place for Entrepreneurs to Share and Discover New Stories
