@@ -25,6 +25,16 @@ import swayImage from '../assets/sway.jpg';
 import guyBImage from '../assets/guyB.jpg';
 import cityImage from '../assets/city.jpg';
 import mountImage from '../assets/mount.jpg';
+import officebgImage from '../assets/officebg.jpg';
+import sculptureImage from '../assets/sculpture.jpg';
+import CrowdImage from '../assets/Crowd.jpg';
+import DashAImage from '../assets/DashA.jpg';
+import DashBImage from '../assets/DashB.jpg';
+import productAImage from '../assets/productA.jpg';
+import productBImage from '../assets/productB.jpg';
+import productCImage from '../assets/productC.jpg';
+import productDImage from '../assets/productD.jpg';
+import productEImage from '../assets/productE.jpg';
 
 const HeroSection = () => {
   return (
@@ -1904,7 +1914,7 @@ const ProductsSections = () => {
             {/* Product 1 - Top Left */}
             <div className="product-card product-card-large">
               <div className="product-image">
-                <img src="src/assets/officebg.jpg" alt="Productivity Apps" />
+                <img src={officebgImage} alt="Productivity Apps" />
                 <div className="product-overlay">
                   <p className="product-overlay-text">PRODUCTIVITY</p>
                   <h3 className="product-overlay-title">The Best Productivity Apps on Market</h3>
@@ -1926,7 +1936,7 @@ const ProductsSections = () => {
             {/* Product 2 - Top Right */}
             <div className="product-card product-card-large">
               <div className="product-image">
-                <img src="src/assets/sculpture.jpg" alt="Sculpture" />
+                <img src={sculptureImage} alt="Sculpture" />
                 <div className="product-overlay">
                   <p className="product-overlay-text">DESIGN</p>
                   <h3 className="product-overlay-title">The Sculpture Where Details Matter</h3>
@@ -1945,7 +1955,7 @@ const ProductsSections = () => {
             {/* Product 3 - Full Width Bottom */}
             <div className="product-card product-card-full">
               <div className="product-image">
-                <img src="src/assets/Crowd.jpg" alt="Customers" />
+                <img src={CrowdImage} alt="Customers" />
                 <div className="product-overlay">
                   <p className="product-overlay-text">MARKETING</p>
                   <h3 className="product-overlay-title">0 to 100.000 Customers in 6 months</h3>
@@ -1990,7 +2000,7 @@ const ProductsSections = () => {
             {/* Product 1 */}
             <div className="product-card-standard">
               <div className="product-standard-image">
-                <img src="src/assets/DashA.jpg" alt="Light Bootstrap Dashboard" />
+                <img src={DashAImage} alt="Light Bootstrap Dashboard" />
               </div>
               <div className="product-standard-content">
 
@@ -2005,7 +2015,7 @@ const ProductsSections = () => {
             {/* Product 2 */}
             <div className="product-card-standard">
               <div className="product-standard-image">
-                <img src="src/assets/DashB.jpg" alt="Now UI Dashboard" />
+                <img src={DashBImage} alt="Now UI Dashboard" />
               </div>
               <div className="product-standard-content">
                 <h4 className="product-standard-title">Now UI Dashboard PRO React</h4>
@@ -2034,7 +2044,7 @@ const ProductsSection = () => {
 
         <div className="products-grid-4">
           <div className="product-card">
-            <img src="src/assets/productA.jpg" alt="Website Redesign" />
+            <img src={productAImage} alt="Website Redesign" />
             <div className="product-info">
               <p className="product-category">WEB DESIGN</p>
               <h3 className="product-title">Famous Website Redesign</h3>
@@ -2045,7 +2055,7 @@ const ProductsSection = () => {
           </div>
 
           <div className="product-card">
-            <img src="src/assets/productB.jpg" alt="Desktop for Designers" />
+            <img src={productBImage} alt="Desktop for Designers" />
             <div className="product-info">
               <p className="product-category">PRODUCTIVITY TOOLS</p>
               <h3 className="product-title">Beautiful Desktop for Designers</h3>
@@ -2056,7 +2066,7 @@ const ProductsSection = () => {
           </div>
 
           <div className="product-card">
-            <img src="src/assets/productC.jpg" alt="Analytics for Android" />
+            <img src={productCImage} alt="Analytics for Android" />
             <div className="product-info">
               <p className="product-category">ANDROID APP</p>
               <h3 className="product-title">Analytics for Android</h3>
@@ -2067,7 +2077,7 @@ const ProductsSection = () => {
           </div>
 
           <div className="product-card">
-            <img src="src/assets/productD.jpg" alt="Behance Redesign" />
+            <img src={productDImage} alt="Behance Redesign" />
             <div className="product-info">
               <p className="product-category">UX/UI DESIGN</p>
               <h3 className="product-title">Behance Redesign</h3>
@@ -2089,7 +2099,7 @@ const ProductsSection = () => {
         <div className="products-alternating">
           <div className="alternating-item">
             <div className="alternating-image">
-              <img src="src/assets/productB.jpg" alt="Beautiful Project" />
+              <img src={productBImage} alt="Beautiful Project" />
             </div>
             <div className="alternating-content">
               <div className="feature-item">
@@ -2181,7 +2191,7 @@ const ProductsSection = () => {
               </div>
             </div>
             <div className="alternating-image">
-              <img src="src/assets/productE.jpg" alt="Another One" />
+              <img src={productEImage} alt="Another One" />
             </div>
           </div>
         </div>
@@ -2688,7 +2698,7 @@ const PricingTestimonials = () => {
                     <h4 className="testimonial-name">Alec Thompson</h4>
                     <p className="testimonial-role">@ALECTHOMPSON</p>
                   </div>
-                  <img src="src/assets/manB.jpg" alt="Alec Thompson" className="testimonial-avatar" />
+                  <img src={manBImage} alt="Alec Thompson" className="testimonial-avatar" />
                 </div>
               </div>
 
@@ -2704,7 +2714,7 @@ const PricingTestimonials = () => {
                     <h4 className="testimonial-name">Gina Andrew</h4>
                     <p className="testimonial-role">@GINAANDREW</p>
                   </div>
-                  <img src="src/assets/sway.jpg" alt="George West" className="testimonial-avatar" />
+                  <img src={swayImage} alt="George West" className="testimonial-avatar" />
 
                 </div>
               </div>
@@ -2722,7 +2732,7 @@ const PricingTestimonials = () => {
                     <h4 className="testimonial-name">George West</h4>
                     <p className="testimonial-role">@GEORGEWEST</p>
                   </div>
-                  <img src="src/assets/guyB.jpg" alt="Gina Andrew" className="testimonial-avatar" />
+                  <img src={guyBImage} alt="Gina Andrew" className="testimonial-avatar" />
                 </div>
               </div>
             </div>
@@ -2736,7 +2746,7 @@ const PricingTestimonials = () => {
         <div className="testimonial-carousel">
           <button className="carousel-arrow left">‹</button>
           <div className="carousel-content">
-            <img src="src/assets/kend.jpg" alt="Kanye West" className="carousel-avatar" />
+            <img src={kendImage} alt="Kanye West" className="carousel-avatar" />
             <p className="carousel-text">
               "I used ant-icons.club on the old guard on behalf of the team. I picked up all of the icons of the
               team the icons that I would put a million shows on the old guard on behalf of the...
@@ -2765,7 +2775,7 @@ const PricingTestimonials = () => {
           <div className="testimonials-grid-simple">
             {/* Client 1 */}
             <div className="testimonial-simple">
-              <img src="src/assets/manB.jpg" alt="Alec Thompson" className="testimonial-avatar" />
+              <img src={manBImage} alt="Alec Thompson" className="testimonial-avatar" />
               <h4>Mike Andrew</h4>
               <p>CEO @ MARKETING DIGITAL LTD</p>
               <p className="testimonial-text">
@@ -2775,7 +2785,7 @@ const PricingTestimonials = () => {
 
             {/* Client 2 */}
             <div className="testimonial-simple">
-              <img src="src/assets/sway.jpg" alt="Gina Andrew" className="testimonial-avatar" />
+              <img src={swayImage} alt="Gina Andrew" className="testimonial-avatar" />
               <h4>Tina Thompson</h4>
               <p>CEO @ MARKETING DIGITAL LTD</p>
               <p className="testimonial-text">
@@ -2786,7 +2796,7 @@ const PricingTestimonials = () => {
 
             {/* Client 3 */}
             <div className="testimonial-simple">
-              <img src="src/assets/farm-gul.jpg" alt="George West" className="testimonial-avatar" />
+              <img src={farmGulImage} alt="George West" className="testimonial-avatar" />
               <h4>Gina West</h4>
               <p>CFO @ APPLE INC.</p>
               <p className="testimonial-text">
