@@ -3888,29 +3888,44 @@ body {
   /* some of our aes... 1 & 2 */
   .products-section {
     padding: 60px 15px;
+    width: 100%;
+  }
+
+  .products-container {
+    padding: 0 10px;
   }
 
   .products-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
   }
 
   .products-description {
     font-size: 0.95rem;
+    margin-bottom: 40px;
   }
 
   .products-tabs {
     gap: 10px;
+    margin-bottom: 40px;
   }
 
   .products-tab {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     padding: 8px 15px;
   }
 
-  /* Products Section 1 */
   .products-grid-asymmetric {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 15px;
+  }
+
+  .product-card-full {
+    grid-column: 1;
+  }
+
+  .product-image {
+    width: 100%;
   }
 
   .product-card-large .product-image {
@@ -3918,34 +3933,43 @@ body {
   }
 
   .product-card-full .product-image {
-    height: 280px;
+    height: 250px;
   }
 
   .product-overlay {
-    padding: 25px;
+    padding: 20px;
   }
 
   .product-overlay-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
   }
 
   .product-overlay-text {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
   }
 
-  /* Products Section 2 */
+  .product-overlay-button {
+    padding: 10px 25px;
+    font-size: 0.85rem;
+  }
+
   .products-grid-standard {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 20px;
   }
 
-  .product-info-card {
-    text-align: center;
+  .product-standard-image {
+    height: 180px;
   }
 
-  /* awesome section 3&4 */
-  .products-section {
-    padding: 50px 15px;
+  .product-standard-content {
+    padding: 20px;
+  }
+
+  .product-standard-title {
+    font-size: 1rem;
   }
 
   .section-title {
@@ -3954,7 +3978,6 @@ body {
 
   .section-subtitle {
     font-size: 14px;
-    margin-bottom: 40px;
   }
 
   /* Section 3 Grid - Stack on Mobile */
@@ -4189,5 +4212,102 @@ body {
 
   .nav-center a {
     font-size: 0.7rem;
+  }
+  .products-section {
+    padding: 40px 10px;
+  }
+
+  .products-title {
+    font-size: 1.5rem;
+  }
+
+  .products-description {
+    font-size: 0.9rem;
+  }
+
+  .products-tabs {
+    gap: 8px;
+  }
+
+  .products-tab {
+    font-size: 0.7rem;
+    padding: 7px 12px;
+  }
+
+  .product-card-large .product-image,
+  .product-card-full .product-image {
+    height: 200px;
+  }
+
+  .product-overlay {
+    padding: 15px;
+  }
+
+  .product-overlay-title {
+    font-size: 1rem;
+  }
+
+  .product-overlay-text {
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .product-overlay-button {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+  }
+
+  .product-standard-image {
+    height: 150px;
+  }
+
+  .product-standard-content {
+    padding: 15px;
+  }
+
+  .product-standard-title {
+    font-size: 0.95rem;
+  }
+
+  .product-info-text {
+    font-size: 0.85rem;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-subtitle {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  .products-title {
+    font-size: 2rem;
+  }
+
+  .products-grid-standard {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .product-info-card {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .product-overlay {
+    padding: 30px;
+  }
+
+  .product-overlay-title {
+    font-size: 1.3rem;
+  }
+
+  .product-overlay-text {
+    font-size: 0.9rem;
   }
 }
